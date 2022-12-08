@@ -2,7 +2,7 @@ provider "azurerm" {
   features {}
 }
 resource "azurerm_resource_group" "example" {
-    name = "dev-rg"
+    name = "dev-rg2"
     location = "eastus"
 }
 resource "azurerm_public_ip" "example" {
